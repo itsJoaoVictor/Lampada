@@ -41,6 +41,7 @@ button{
 }
 .ligado:hover{
     background: green;
+    font-weight: bold;
 }
 .desligado:hover{
     background-color: red;
