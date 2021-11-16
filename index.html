@@ -9,19 +9,23 @@
     <title>Lâmpada</title>
 </head>
 <body>
-    <div>
-        <h1 class="titulo">
-            Lâmpada by João Victor
-        </h1>
-    </div>
+    <div class="container">
+        <div>
+            <h1 class="titulo">
+                Lâmpada by João Victor
+            </h1>
+        </div>
+    
+        <div class="lamp" >
+            <img src="imagens/lamp_off.png" height="200px" alt="" id="lamp">
+        </div>
+        <div class="btn"> 
+            <button class="ligado"  onclick="on()">ligado</button>
+            <button class="desligado" onclick="off()">desligado</button>
+        </div>
 
-    <div class="lamp" >
-        <img src="imagens/lamp_off.png" height="200px" alt="" id="lamp">
     </div>
-    <div> 
-        <button class="ligado"  onclick="on()">ligado</button>
-        <button class="desligado" onclick="off()">desligado</button>
-    </div>
+    
     
     
 </body>

@@ -35,9 +35,13 @@ button{
     margin-left: 0px;   
 
 }
-.ligado{
+/*.ligado{
     margin-top: 10px;
-    margin-left: 42%;
+    margin-left: auto;
+}
+*/
+.btn{
+    text-align: center;
 }
 .ligado:hover{
     background: green;
